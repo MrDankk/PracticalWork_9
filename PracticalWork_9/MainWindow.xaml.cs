@@ -47,7 +47,7 @@ namespace PracticalWork_9
 
             for (int i = 0; i < textWords.Length; i++) 
             {
-                textWords[i] = $"{wordNumber++} :" + textWords[i];
+                textWords[i] = $"{wordNumber++} : " + textWords[i];
             }
 
             seporationPage.seporationListBox.ItemsSource = textWords;
